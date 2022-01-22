@@ -1,0 +1,20 @@
+1. Hvorfor ignorerer vanligvis mobiltelefoner autoplay?
+    Dette er fordi det er slått av i mobiloprativsystemer.
+    Grunnen til at det er slått av er fordi mobiltelefoner ikke skal bruke alt for mye mobildata
+
+2. Hva vil CSS gjøre hvis du surfer med en enhet som har 320 x 568 oppløsning
+    @media only screenand (min-device-width : 768px)
+    and (max-device-width : 1024px)  {
+        #logo {
+            display: none;     
+        }
+    }
+
+    Her vil den mest sannsynlig vise logo. 
+    Hvis man har hatt en enhet med litt høyere oppløsning ville man kanskje ikke ha sett logoen
+
+3. Hva er fordelen med å ha en responsive nettside for både mobil og desktop?
+    Det blir enklere å gjøre vedlikehold, da det er bare en nettside man trenger å holde orden på.
+    Samme innhold vl bli vist på alle enheter
+    Den er enklere å søke seg frem til, da mobil-nettsider kan ha annen URL
+    

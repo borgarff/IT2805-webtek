@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income greather than 500 000</title>
+    <meta charset="UTF-8">
+    <script src="taxForms.js"></script>
+  </head>
+  <body>
+    <script>
+      for (i = 0; i < taxForms.length; i++) {   //går igjenom alle objektene
+        var tax = taxForms[i]     //legger dem inni tax
+        if (tax.income >= 500000) { //Hvis incom er større enn 500000
+          console.log(tax)        //Skriver vi ut tax objekt
+        }
+      }
+    </script>
+  </body>
+</html>

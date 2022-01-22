@@ -1,0 +1,14 @@
+1. Why does the following expression 0.1 + 0.2 === 0.3 evaluate to false in Javascript?
+    Dette er fordi 0.1 + 0.2 ikke blir 0.3. Javascript sine float’er ikke er nøyaktig. Dette er på grunn av IEEE standarden den bruker.
+
+2.What does the method attribute on a form element decide?
+    method spesifiserer hvordan man skal sende data. Du kan sende data med GET og POST
+
+3.Explain why the form fields appear in the URL when the method on form element ischanged to GET?
+    Dette er fordi GET fløyer data inn i URL’en. En grunn til at du ikke bør bruke GET når du sender sensitiv informasjon, da data vises i URL.
+
+4.Why is it considered bad practice to only validate form input with HTML5 and/orJavascript?
+    Dette er “bad practice” fordi det er måter der man kan hoppe over valideringen av forms. Hvis man slår av Javascript kan man hoppe over valideringen helt, og hvis noe feiler vil ikke form’et bli sendt.
+
+5.When is it appropriate to use textarea over input?
+    textarea brukes når det er en lengre tekst som skal skrives inn. textarea er også et element utenfor forms. input brukes når det er en verdi eller en mindre tekst som skal settes inn.

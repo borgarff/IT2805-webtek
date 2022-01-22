@@ -1,0 +1,38 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/* Part 3*/
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  height: auto;
+  height: 100%;
+  min-height: 100%
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: hotpink;
+  text-align: center;
+}
+
+/* Part 4 */
+
+ul {
+  list-style-type: square;
+}
+
+li li:last-child {
+  color: aqua;
+}
+
+
+

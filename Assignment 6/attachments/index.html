@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+                <p>
+                    Navn:<br>
+                    <input type="text" name="Navn" required><br>
+                </p>
+                <p>
+                    Kjønn <br>
+                    <input type="radio" name="kjonn" value="Mann" checked> Mann<br>
+                    <input type="radio" name="kjonn" value="Dame"> Dame<br>
+                </p>
+                <p>
+                    E-post <br>
+                    <input type="email" name="epost"><br>
+                </p>
+                <p>
+                    Fødselsdato: <br>
+                    <input type="date" name="fodselsdato" min="1989-01-01">
+                </p>
+                <p>
+                    Hero name:<br>
+                    <input type="text" name="hero" required><br> 
+                </p>
+                <p>
+                    Bruker du spandex? <br>
+                    <input type="radio" name="spandex" value="Ja" checked> Ja<br>
+                    <input type="radio" name="spandex" value="Nei"> Nei<br>
+                </p>
+                <p>
+                    Styrke <br>
+                    <select name="Styrke" id="styrke">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </p>
+                <p>
+                    Hastighet <br>
+                    <select name="Hastighet" id="speed">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                    </select>
+                </p>
+                <p>
+                    Intelligens <br>
+                    <select name="intelligens" id="int">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </p>
+                <p>
+                    Inntekt <br>
+                    <input type="number" name="Inntekt" min="0" required onclick="changeTax()" id="inc"> <br>
+                    Rikdom <br>
+                    <input type="number" name="Rikdom" min="0" required onclick="changeTax()" id="wel"> <br>
+                    Skatt <br>
+                    <input type="number" name="Skatt" disabled id="tax"><br>
+                    
+                </p>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

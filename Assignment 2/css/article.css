@@ -1,0 +1,58 @@
+html {
+    background-color: lightgrey;
+    color: #323232;
+}
+
+article {
+    font-family: verdana, sans-serif;
+    width: 960px;
+    margin: auto;
+    max-width: 70ch;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p, blockquote, ul, ol {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+#facts {
+    margin: 1em 0em 1em 1em;
+    width: 50%;
+    border: 1px dashed;
+    float: right;
+}
+article
+#facts > ul {
+    list-style-image: url('cup-icon.svg');
+    line-height: 1.5em;
+    padding-left: 1.5em;
+}
+
+#cover {
+    width: 960px;
+}
+
+
+/*Spørsmål*/
+/*
+Spørsmål
+ 1. Grunnen til at inline CSS overkjører style elements og external stylesheets er fordi inline er mer spesifikk enn de to andre.
+2. "class" bruker vi når det er flere elemeter som skal styles. En "id" brukes mest når det er et element som skal styles. "class" er ikke unik, men en "id" må være unik. 
+3. RGBA var noe som kom i CSS3 og er egentlig mye det samme som vanlig RGB, men der man kan definere hvor gjennomsiktig fargen skal være. Den siste alpha skalaen går fra 0.0 til 1.0.
+4. CSS filen blir inkludert i "head" fordi at den skal bli lastet inn raskere.
+5. For å gi en style på alle "p" inni en "article" må vi bruke "article p" selector.
+*/

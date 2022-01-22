@@ -1,0 +1,12 @@
+Hva er forskjellen på position: absolute og position: fixed?
+
+position: absolut prøver å knytte seg til nermeste element og ikke nødveningvis der brukeren skjer på nettsiden.
+Hvis den ikke har noen stamfar flytter den seg med document body.
+position: fixed stiller seg til synspunktet til brukeren. Den følger siden når du skroller opp og ned. 
+Hvor langt fra andre elementer den er avhenger av koden i CSS
+
+
+
+With CSS3, how do we access the third element within another element?
+Dette kan vi få til med å bruke nth-child(3). 
+Hvis det er en liste kan man f eks skrive li li:nth-child(3)

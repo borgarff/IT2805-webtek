@@ -1,0 +1,18 @@
+header {
+    font-family: 'Times New Roman', cursive, sans-serif;
+    
+}
+
+html {
+    background-color: cornsilk;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#me {
+    max-width: 150px; 
+    max-height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+}

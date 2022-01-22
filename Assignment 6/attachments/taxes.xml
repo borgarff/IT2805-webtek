@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Helter>
+        <Hero>
+            <Navn>Nick Nedd</Navn>
+            <Kjonn>Mann</Kjonn>
+            <E-mail>ick@tick.com</E-mail>
+            <fodselsar>1976</fodselsar>
+            <Heroname>The Tick</Heroname>
+            <spanedx>Ja</spanedx>
+            <Styrke>9</Styrke>
+            <Speed>7</Speed>
+            <Intelligens>5</Intelligens>
+            <Wealth>0</Wealth>
+            <Income>90 287</Income>
+            <Tax>29 794</Tax>
+        </Hero>
+        <Hero>
+            <Navn>Bruce Wayne</Navn>
+            <Kjonn>Mann</Kjonn>
+            <E-mail>bruce@wayneenterprises.com</E-mail>
+            <fodselsar>1974</fodselsar>
+            <Heroname>Batman</Heroname>
+            <spanedx>Nei</spanedx>
+            <Styrke>7</Styrke>
+            <Speed>4</Speed>
+            <Intelligens>9</Intelligens>
+            <Wealth>50 144 501</Wealth>
+            <Income>3 343 891</Income>
+            <Tax>11 132 384</Tax>
+        </Hero>
+        <Hero>
+            <Navn>Selina Kyle </Navn>
+            <Kjonn>Dame</Kjonn>
+            <E-mail>selina@whiskas.com </E-mail>
+            <fodselsar>1977</fodselsar>
+            <Heroname>Catwoman</Heroname>
+            <spanedx>Ja</spanedx>
+            <Styrke>6</Styrke>
+            <Speed>6</Speed>
+            <Intelligens>9</Intelligens>
+            <Wealth>2 987 323</Wealth>
+            <Income>0</Income>
+            <Tax>597 464</Tax>
+        </Hero>
+    </Helter>
+</root>
